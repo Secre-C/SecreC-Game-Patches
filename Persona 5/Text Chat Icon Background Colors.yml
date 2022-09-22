@@ -1,0 +1,31 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Text Chat Icon Background colors:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Changes the color of text chat icon backgrounds
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0xd5972b, 0xF0F73E ]  #Ryuji
+      - [ be32, 0xd59733, 0xFE7FC7 ]  #Ann
+      - [ be32, 0xd59737, 0x25CFFA ]  #Yusuke
+      - [ be32, 0xd5973b, 0x2741B4 ]  #Makoto
+      - [ be32, 0xd5973f, 0xA958CB ]  #Haru
+      - [ be32, 0xd59743, 0x4BEE05 ]  #Futaba
+      - [ be32, 0xd59747, 0xB7C2C7 ]  #Akechi
+      - [ be32, 0xd59763, 0xFF7E00 ]  #Sojiro
+      - [ be32, 0xd59767, 0xFF7E00 ]  #Chihaya
+      - [ be32, 0xd5976b, 0xFF7E00 ]  #Justine
+      - [ be32, 0xd5976f, 0xFF7E00 ]  #Caroline
+      - [ be32, 0xd59773, 0xFF7E00 ]  #Iwai
+      - [ be32, 0xd59777, 0xFF7E00 ]  #Takemi
+      - [ be32, 0xd5977b, 0xFF7E00 ]  #Kawakami
+      - [ be32, 0xd5977f, 0xFF7E00 ]  #Ohya
+      - [ be32, 0xd59783, 0xFF7E00 ]  #Shinya
+      - [ be32, 0xd59787, 0xFF7E00 ]  #Hifumi
+      - [ be32, 0xd5978b, 0xFF7E00 ]  #Mishima
+      - [ be32, 0xd5978f, 0xFF7E00 ]  #Yoshida

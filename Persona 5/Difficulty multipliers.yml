@@ -1,0 +1,23 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Difficulty Multipliers:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Multipliers for each difficulty's damage, money, and exp gain
+    Patch Version: 1.0
+    Patch:
+       - [ bef32, 0x63cd0c, 1.0 ] #Base EXP and Money value (default 1.0)
+       - [ bef32, 0x63cd14, 5.0 ] #SAFE Money multiplier (default 5.0)
+       - [ bef32, 0x63cd10, 3.0 ] #SAFE EXP multiplier (default 3.0)
+       - [ bef32, 0x63cd18, 0.4 ] #MERCILESS battle result EXP and MONEY multiplier (default 0.4)
+       - [ bef32, 0x2529bc, 1.0 ] #NORMAL enemy damage multiplier (default 1.0)
+       - [ bef32, 0x2529d0, 1.25 ] #EASY/NORMAL party damage multiplier (default 1.25)
+       - [ bef32, 0x2529d4, 2.0 ] #SAFE party damage multiplier (default 2.0)
+       - [ bef32, 0x2529dc, 0.5 ] #SAFE/EASY enemy damage multiplier (default 0.5)
+       - [ bef32, 0x2529e8, 1.6 ] #HARD and MERCILESS enemy damage multiplier (default 1.6)
+       - [ bef32, 0x2529f8, 3.0 ] #MERCILESS Weakness multiplier (default 3.0)
+       - [ bef32, 0x2529e4, 0.8 ] #HARD and MERCILESS party damage multiplier (default 0.8)

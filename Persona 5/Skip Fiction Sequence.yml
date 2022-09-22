@@ -1,0 +1,13 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Skip Fiction Sequence:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Skips the fiction confirmation sequence when starting a new game
+    Patch Version: 1.0
+    Patch:
+       - [ be32, 0x563c9c, 0x4280007c ] #b  0x00563d18

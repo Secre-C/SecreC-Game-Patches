@@ -1,0 +1,14 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Quick Transition After Battle:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Quick Transition After Battle
+    Patch Version: 1.0
+    Patch:
+       - [ be32, 0x65a58c, 0x42800184 ] #b  0x0065a710
+       - [ be32, 0x65bc7c, 0x4280040c ] #b  0x0065c088

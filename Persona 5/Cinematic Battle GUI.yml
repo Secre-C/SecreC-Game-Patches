@@ -1,0 +1,19 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Cinematic Battle GUI:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Prevents main battle menu gui from showing up.
+    Patch Version: 1.0
+    Patch:
+       - [ be32, 0x82dc50, 0x60000000 ] #btl_menu_cmnd_front.gmd
+       - [ be32, 0x82dc60, 0x60000000 ] #btl_menu_cmnd_back.gmd
+       
+       - [ be32, 0x846500, 0x60000000 ] #button spd entries
+       
+       - [ be32, 0x8468c8, 0x60000000 ] #text spd entries 
+       - [ be32, 0x846b70, 0x60000000 ] #text spd entries
