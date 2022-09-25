@@ -1,0 +1,14 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Model stays in pause menu:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Prevents pause menu model from being replaced by the 2d sprite
+    Patch Version: 1.0
+    Patch:
+       - [ be32, 0x4bf354, 0x60000000 ] #ori  r0, r0, 0x0
+       - [ be32, 0x4c18c4, 0x42800038 ] #b 0x4c18fc
