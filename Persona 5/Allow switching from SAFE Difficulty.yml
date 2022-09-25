@@ -1,0 +1,13 @@
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Switch from SAFE Difficulty:
+    Games:
+      "Persona 5":
+        BLES02247: [ All ]
+        NPEB02436: [ All ]
+        BLUS31604: [ All ]
+        NPUB31848: [ All ]
+    Author: SecreC.
+    Notes: Allow switching off of SAFE difficulty
+    Patch Version: 1.0
+    Patch:
+       - [ be32, 0x48adc8, 0x38600001 ] #li r3, 0x1
